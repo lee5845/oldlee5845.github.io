@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Translator</title>
+    <link rel="stylesheet" href="binary.css">
+    <script src="binary.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html" title="Home"><img src="img/home.png" height="23" width="32" alt="homeButton"/></a>
+    <a href="bintro.html" title="Brief Introduction"><b>Brief Introduction</b></a>
+    <a href="family.html" title="Family"><b>Family</b></a>
+    <a href="hobbies.html" title="Hobbies"><b>Hobbies</b></a>
+    <a href="jminiproject.html" title="JavaProjects"><b>JavaProjects</b></a>
+    <a class="active" href="binary.html" title="Hobbies"><b>Base Converter</b></a>
+    <a href="calculator.html" title="JavaScript Calculator"><b>JavaScript Calculator</b></a>
+    <a href="madLibs.html" title="Mad Libs"><b>Mad-Libs</b></a>
+    <a href="quiz.html" title="Quiz"><b>Quiz!</b></a>
+</div>
+<form name="baseConverters">
+
+    <h4>Base Converters</h4>
+    Put in a number: <input name="num1" type="text" style="border-style: none">
+    <br><br>
+    Choose your current base: <input name="base1" type="text" style="border-style: none">
+    Choose the base you wish to change to: <input name="base2" type="text" style="border-style: none">
+    <button type="button" onclick="document.baseConverters.result.value=combo(Number(document.baseConverters.num1.value), Number(document.baseConverters.base1.value), Number(document.baseConverters.base2.value))">Click</button>
+    <br><br>
+    Result: <input name="result" type="text" readonly="true" style="border-style: none">
+</form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad-Libs</title>
+    <script src="madLibs.js"></script>
+    <link rel="stylesheet" href="madLibs.css">
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html" title="Home"><img src="img/home.png" height="23" width="32" alt="homeButton"/></a>
+    <a href="bintro.html" title="Brief Introduction"><b>Brief Introduction</b></a>
+    <a href="family.html" title="Family"><b>Family</b></a>
+    <a href="hobbies.html" title="Hobbies"><b>Hobbies</b></a>
+    <a href="jminiproject.html" title="JavaProjects"><b>JavaProjects</b></a>
+    <a href="binary.html" title="Hobbies"><b>Base Converter</b></a>
+    <a href="calculator.html" title="JavaScript Calculator"><b>JavaScript Calculator</b></a>
+    <a class="active" href="madLibs.html" title="Mad Libs"><b>Mad-Libs</b></a>
+    <a href="quiz.html" title="Quiz"><b>Quiz!</b></a>
+</div>
+<form name="madLibs">
+<h4 style="text-align: center;">Mad-Libs!!</h4>
+<p>Adjective: <input name="input1" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Adjective: <input name="input2" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Type of bird: <input name="input3" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Room in a house: <input name="input4" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Verb (Past tense): <input name="input5" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Verb: <input name="input6" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Relative's name: <input name="input7" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Noun: <input name="input8" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>A liquid: <input name="input9" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Verb ending in "ing": <input name="input10" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Part of the body (plural): <input name="input11" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+<p>Plural noun: <input name="input12" type="text" placeholder="write here" style="text-align: center;" size="10"></p>
+<br>
+
+
+
+    <div id="button"><button type="button" onclick="document.getElementById('story').innerHTML=f()">click</button></div>
+    <p id="story" style="text-align: center;"></p>
+</form>
+</body>
+</html>
